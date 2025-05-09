@@ -4,11 +4,11 @@ This project provides optimized Docker images to run PHP applications with the [
 
 It is based on [php-fpm-docker](https://github.com/fbraz3/php-fpm-docker) and [php-base-docker](https://github.com/fbraz3/php-base-docker), supporting multiple PHP versions and architectures.
 
-For more technical information, please visit our  [DeepWiki Page](https://deepwiki.com/fbraz3/php-apache-docker) (AI generated).
+For more technical information, please visit our  [DeepWiki Page](https://deepwiki.com/fbraz3/php-apache2-docker) (AI generated).
 
 ## Build Status
 
-[![Build Base Images](https://github.com/fbraz3/php-apache-docker/actions/workflows/base-images.yml/badge.svg)](https://github.com/fbraz3/php-apache-docker/actions/workflows/base-images.yml) [![Build Phalcon Images](https://github.com/fbraz3/php-apache-docker/actions/workflows/phalcon-images.yml/badge.svg)](https://github.com/fbraz3/php-apache-docker/actions/workflows/phalcon-images.yml)
+[![Build Base Images](https://github.com/fbraz3/php-apache2-docker/actions/workflows/base-images.yml/badge.svg)](https://github.com/fbraz3/php-apache2-docker/actions/workflows/base-images.yml) [![Build Phalcon Images](https://github.com/fbraz3/php-apache2-docker/actions/workflows/phalcon-images.yml/badge.svg)](https://github.com/fbraz3/php-apache2-docker/actions/workflows/phalcon-images.yml)
 
 ## Tags
 Each image is tagged with the PHP version. For example:
