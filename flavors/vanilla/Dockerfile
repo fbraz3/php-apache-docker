@@ -9,28 +9,6 @@ ARG BUILD_ARCH
 ENV DEBIAN_FRONTEND=noninteractive
 ENV ENTRYPOINT_COMMAND="/usr/bin/tail -f /var/log/apache2/access.log"
 
-# TODO list
-# Assess httpd estructure                      | OK
-# Template vhost (prepare to pma)              | OK
-# Template monit config                        | OK
-# copy entrypoint to /entrypoints folder       | OK
-# compile and test loccaly                     | OK
-# remove unused files                          |
-# Create gh actions for build and push         |
-# Define tests for each flavor                 |
-# Implement tests for each flavor              |
-# refactor README.md                           |
-# add both httpd and apache2 variants          |
-# enable cron build                            |
-# Update readme with deepwiki link             |
-# Create build status badges                   |
-# merge to main branch                         |
-# triger manual builds                         |
-# Create deepwiki page                         |
-# Enable funding on github                     |
-# Update dockerhub images description          |
-
-
 COPY ../../assets/scripts/docker-entrypoint.sh /entrypoints/2-apache2-entrypoint.sh
 RUN chmod +x /entrypoints/2-apache2-entrypoint.sh
 
