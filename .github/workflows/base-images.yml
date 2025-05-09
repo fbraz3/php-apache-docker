@@ -124,4 +124,4 @@ jobs:
             fbraz3/php-httpd:${{ matrix.php_version }}
             ${{ matrix.is_latest && 'fbraz3/php-apache2:latest' || '' }}
             ${{ matrix.is_latest && 'fbraz3/php-apache:latest' || '' }}
-            ${{ matrix.is_latest && 'fbraz3/httpd:latest' || '' }}
+            ${{ matrix.is_latest && 'fbraz3/php-httpd:latest' || '' }}
